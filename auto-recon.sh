@@ -53,7 +53,9 @@ echo -e "\n\n"
 printf "$RED"
 figlet -f term WARNING!!  This auto recon uses all the active scan methods it may trigger the backend monitoring systems \n Use this tool at your own risk!!
 
-echo -e "${CYN}\nEnter the target Ip-Address\n" 
+printf "$YLW"
+To check how this tool works scan : scanme.nmap.org
+echo -e "${CYN}\nEnter the target Ip-Address or URL\n" 
 read ip
 
 cd $HOME 
