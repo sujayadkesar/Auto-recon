@@ -1,7 +1,7 @@
 # Auto Recon
 
+<img width="646" alt="image" src="https://user-images.githubusercontent.com/95465072/191881886-b688a3a4-9649-45e2-a0d3-4bf0e55a912a.png">
 
-<img width="749" alt="image" src="https://user-images.githubusercontent.com/95465072/191880370-3183e421-59a9-49f8-8109-6f7eed865caa.png">
 
 
 ## Installation
@@ -29,7 +29,8 @@ chmod +x auto-recon.sh
 
 ## Reconnaissance
 
-<img width="646" alt="image" src="https://user-images.githubusercontent.com/95465072/191881886-b688a3a4-9649-45e2-a0d3-4bf0e55a912a.png">
+ <img width="749" alt="image" src="https://user-images.githubusercontent.com/95465072/191880370-3183e421-59a9-49f8-8109-6f7eed865caa.png">
+
 
  - [ ] nslookup
  - [ ] host_discovery
