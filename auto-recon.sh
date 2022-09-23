@@ -360,7 +360,9 @@ then
 
     elif [ "$port_range" = "2" ];
     then
-        echo "${bred} Note: scanning all 65535 ports it may take few minutes!!\n\n" 
+        printf "$CYN"
+        echo -e "[*] Note: scanning all 65535 ports it may take few minutes!!\n\n" 
+        printf "$YLW"
         sudo nmap -sV -sC -p- --min-rate=5000 -O $ip > nmap-scan-results.txt   
         echo -ne '${GRN}#####                     (33%)\r'
         sleep 1
