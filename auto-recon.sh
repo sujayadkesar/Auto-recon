@@ -12,6 +12,12 @@ MGN='\e[35m'; mgn='\e[95m'; BMGN='\e[45m'; bmgn='\e[105m' #| Magenta |
 CYN='\e[36m'; cyn='\e[96m'; BCYN='\e[46m'; bcyn='\e[106m' #| Cyan    |
 WHT='\e[37m'; wht='\e[97m'; BWHT='\e[47m'; bwht='\e[107m' #| White   |
 
+
+sudo apt update -y
+clear
+sudo apt-get upgrade -y
+clear
+
 toilet="$(which toilet)"
 if  ["$toilet" != "usr/bin/toilet" ];
 then
