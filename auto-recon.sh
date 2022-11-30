@@ -15,7 +15,8 @@ WHT='\e[37m'; wht='\e[97m'; BWHT='\e[47m'; bwht='\e[107m' #| White   |
 
 sudo apt update -y
 clear
-sudo apt-get upgrade -y
+sudo apt install toilet 
+sudo apt install figlet 
 clear
 
 toilet="$(which toilet)"
